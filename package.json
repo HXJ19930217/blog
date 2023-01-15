@@ -8,8 +8,7 @@
     "docs:build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
-    "docs:update": "pnpm add @vuepress/client@next vue vuepress@next vuepress-theme-hope@next && pnpm i && pnpm up"
-
+    "docs:update": "pnpm add @vuepress/client@next @vuepress/plugin-docsearch@next @vuepress/plugin-register-components@next @vuepress/plugin-search@next @vuepress/utils@next vue vuepress@next vuepress-theme-hope@next vuepress-plugin-comment2@next vuepress-plugin-copy-code2@next vuepress-plugin-copyright2@next && pnpm i && pnpm up"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.60",
@@ -19,11 +18,11 @@
     "@vuepress/utils": "2.0.0-beta.60",
     "vue": "^3.2.45",
     "vuepress": "2.0.0-beta.60",
-    "vuepress-plugin-comment2": "2.0.0-beta.156",
-    "vuepress-plugin-copy-code2": "2.0.0-beta.156",
-    "vuepress-plugin-copyright2": "2.0.0-beta.156",
+    "vuepress-plugin-comment2": "2.0.0-beta.158",
+    "vuepress-plugin-copy-code2": "2.0.0-beta.158",
+    "vuepress-plugin-copyright2": "2.0.0-beta.158",
     "vuepress-plugin-search-pro": "2.0.0-beta.156",
-    "vuepress-theme-hope": "2.0.0-beta.156"
+    "vuepress-theme-hope": "2.0.0-beta.158"
   },
   "dependencies": {
     "axios": "^1.2.2",
