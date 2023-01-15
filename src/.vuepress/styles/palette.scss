@@ -1,0 +1,37 @@
+// you can change colors here
+
+// 系统的默认主题色
+$theme-color: #096dd9;
+
+$text-color: (
+  light: #2c3e50,
+  dark: #b0aeb7,
+);
+
+// content
+$bg-color: (
+  light: #fefefe,
+  dark: #252232,
+);
+
+$bg-color-secondary: (
+  light: #f8f8f8,
+  dark: #2c293d,
+);
+
+// 边框
+$border-color: (
+  light: #eaecef,
+  dark: #302d28,
+);
+
+// shadow
+$box-shadow: (
+  light: #f0f1f2,
+  dark: #282a32,
+);
+
+$card-shadow: (
+  light: rgb(0 0 0 / 15%),
+  dark: rgb(0 0 0 / 30%),
+);
