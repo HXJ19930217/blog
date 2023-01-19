@@ -15,14 +15,14 @@ export const Sidebar = sidebar({
     {
       text: "基础知识",
       icon: "guide",
-      prefix: "theory/",   //会添加到每个 item 链接地址之前
+      prefix: "/blog/theory/",   //会添加到每个 item 链接地址之前
       collapsible: true,  //  设置分组是否可以折叠，默认值是 false,
       children: "structure",  //通过文件结构自动生成
     },
     {
       text: "测试工具",
       icon: "markdown",
-      prefix: "tools/",
+      prefix: "/blog/tools/",
       collapsible: true,  //  设置分组是否可以折叠，默认值是 false,
       children: "structure",  //通过文件结构自动生成
     },
@@ -53,7 +53,7 @@ export const Sidebar = sidebar({
   ],
 
     // 获取“other”目录下的文章
-  "/other/": "structure",
+  "/blog/other/": "structure",
 
 });
 

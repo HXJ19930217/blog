@@ -88,7 +88,11 @@ export default hopeTheme({
 
   // 插件
   plugins: {
-    blog: true,
+    // blog: true,
+    
+    blog:{
+      excerptLength: 0,  //不产生摘要
+    },
 
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
@@ -122,22 +126,22 @@ export default hopeTheme({
 
     // Disable features you don’t want here
     mdEnhance: {
-      align: true,
-      attrs: true,
-      chart: true,
-      codetabs: true,
-      container: true,
-      demo: true,
-      echarts: true,
-      figure: true,
-      flowchart: true,
-      gfm: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      katex: true,
-      mark: true,
-      mermaid: true,
+      // align: true,
+      // attrs: true,
+      // chart: true,
+      // codetabs: true,
+      // container: true,
+      // demo: true,
+      // echarts: true,
+      // figure: true,
+      // flowchart: true,
+      // gfm: true,
+      // imgLazyload: true,
+      // imgSize: true,
+      // include: true,
+      // katex: true,
+      // mark: true,
+      // mermaid: true,
       playground: {
         presets: ["ts", "vue"],
       },
@@ -243,15 +247,7 @@ export default hopeTheme({
   },
 
  // 页脚
- displayFooter: true,  // 每个页面都显示页脚
-  footer: `
-  <div>
-	<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202001386" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-		<img src="https://pic.testyuan1024.com/thumbnails/d0289dc0a46fc5b15b3363ffa78cf6c7.png" style="float:left;" />川公网安备 51012202001386号</a>
-</div>
-<div>
-	<a target="_blank" href="https://beian.miit.gov.cn" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-		<img src="https://pic.testyuan1024.com/thumbnails/8682cb3efd4693ad8333d60bb2899a81.png" style="float:left;height:17px;" />蜀ICP备2022029780号</a>
-</div>
-  `
+//  displayFooter: true,  // 每个页面都显示页脚
+  footer: ''
+
 });

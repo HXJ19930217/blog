@@ -6,3 +6,4 @@ src/.vuepress/dist/
 .history
 .github
 package-lock.json
+pnpm-lock.yaml

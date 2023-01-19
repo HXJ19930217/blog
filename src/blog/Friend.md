@@ -47,7 +47,7 @@ preview:'首页截图'   <br>
   url="https://blog.mo7.cc/"
   logo="https://blog.mo7.cc/pwa/144.png"
   repo=""
-  preview=""
+  preview="https://pic.testyuan1024.com/thumbnails/1d8ba8b5e54822827d377c89d2ee5b2a.png"
 />
 
 

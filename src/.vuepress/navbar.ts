@@ -5,7 +5,7 @@ export const Navbar = navbar([
   {
     text: "功能测试",
     icon: "edit",
-    prefix: "/base/",
+    prefix: "/blog/base/",
     children: [
       {
         text: "理论知识",
@@ -92,10 +92,27 @@ export const Navbar = navbar([
       },
     ],
   },
+  {
+    text: "测试开发",
+    icon: "mobile",
+    prefix: "/app/",
+    children: [
+      {
+        text: "前端",
+        icon: "edit",
+        link: "concept/disable.md" 
+      },
+      {
+        text: "后端",
+        icon: "tool",
+        link: "jmeter/readme.md" 
+      },
+    ],
+  },
   { text: '安全测试', link: '/Safety/' ,icon: "shell"},
   { text: '面试', link: '/Interview/' ,icon: "question"},
-  { text: '导航', link: '/Interview/' ,icon: "network"},
-  { text: '友链', link: '/Friend' ,icon: "link"},
+  // { text: '导航', link: '/Interview/' ,icon: "network"},
+  { text: '友链', link: '/blog/Friend' ,icon: "link"},
   { text: 'vuepress', icon: "vue",
   children: [
     {
@@ -109,7 +126,7 @@ export const Navbar = navbar([
   {
     text: "其他",
     icon: "emoji",
-    prefix: "/other/",
+    prefix: "/blog/other/",
     children: [
       {
         text: "自写组件",

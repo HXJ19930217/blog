@@ -21,6 +21,11 @@ export default defineUserConfig({
       // placeholder: '搜索',
       // 排除首页
       isSearchable: (page) => page.path !== '/',
+      locales: {
+        "/zh/": {
+          placeholder: "搜索",
+        },
+      },
       
     }),
 
@@ -47,6 +52,7 @@ export default defineUserConfig({
     "@wenzi": path.resolve(__dirname, "components/wenzi.vue"),
     "@timelines": path.resolve(__dirname, "components/timelines.vue"),
     "@father": path.resolve(__dirname, "components/father.vue"),
+    "@chatgpt": path.resolve(__dirname, "components/chatgpt.vue"),
 
   },
   
